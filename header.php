@@ -27,7 +27,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 	<?php if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'header' ) ) : ?>
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
-				<a href="/"><img src="<?php bloginfo('template_url'); ?>/images/fco-logo.png"></a>
+				<a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/fco-logo.png"></a>
 			</div>
 			
 			<?php $zenzero_theme_options_socialheader = get_theme_mod('zenzero_theme_options_socialheader', '');  
