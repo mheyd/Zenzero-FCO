@@ -1,0 +1,94 @@
+/*
+ Theme Name: Zenzero-FCO
+ Description: Theme for FC Obergessenbach. Based on Zenzero.
+ Author: Manfred Heyd
+ Author URI: http://www.mheyd.com
+ Template: zenzero
+ Version: 1.0
+ Text Domain: zenzero
+*/
+
+a {
+    color: #0c652d;
+ 	text-decoration: none;
+}
+ 
+ a:hover,
+ a:focus,
+ a:active {
+    color: #0c652d;
+}
+
+.site-footer a {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+ .main-navigation {
+    margin-top: 0em;
+ }
+ 
+ .main-navigation a {
+ 	display: block;
+ 	text-decoration: none;
+ 	font-weight: bold;
+	padding: 0.5em 1em 1.5em;
+ 	-webkit-transition: color 0.3s;
+ 	-moz-transition: color 0.3s;
+ 	transition: color 0.3s;
+}
+
+.main-navigation ul ul {
+ 	background: #292929;
+ 	float: left;
+ 	position: absolute;
+	top: 2.4em;
+ 	left: auto;
+ 	z-index: 99999;
+ 	visibility:hidden;
+ 	opacity:0;
+ 	transition:visibility 0s linear 0.3s,opacity 0.3s linear;
+}
+
+.main-navigation ul ul a {
+ 	width: 200px;
+ 	padding: 1.5em;
+ 	text-align: left;
+	background-color: #0c652d;
+}
+
+#page {
+	max-width: 1060px;
+ 	margin: 5em auto;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+ 	background: #ffffff;
+ 	position: relative;
+ 	z-index: 1;
+ 	left: 0;
+ 	-o-transition: left .3s ease-in-out;
+ 	-moz-transition: left .3s ease-in-out;
+ 	-webkit-transition: left .3s ease-in-out;
+ 	transition: left .3s ease-in-out;
+}
+
+.site-footer {
+	padding: 1em 5em;
+}
+
+.site-header {
+	padding: 1em 1em 0;
+ 	text-align: center;
+}
+
+.entry-header {
+    margin-top: 1.5em;
+}
+
+
++/*--------------------------------------------------------------
++Cookie Consent Banner
++--------------------------------------------------------------*/
++#cookie-notice {
++	opacity: 0.9;
+ }
