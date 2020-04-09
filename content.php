@@ -27,9 +27,6 @@
 		<?php the_content(); ?>
 	</div><!-- .entry-summary -->
 
-	<footer class="entry-footer smallPart">
-		<?php edit_post_link( esc_html__( 'Edit', 'zenzero' ), '<span class="edit-link"><i class="fa fa-wrench spaceRight"></i>', '</span>' ); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 
 <div class="betweenPost"></div>
